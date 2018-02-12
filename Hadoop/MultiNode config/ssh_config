@@ -1,0 +1,32 @@
+Host nnode 
+  HostName ec2-13-58-159-178.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode1 
+  HostName ec2-13-59-181-1.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode2 
+  HostName ec2-13-59-55-233.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode3
+  HostName ec2-18-221-22-244.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode4
+  HostName ec2-18-217-170-109.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode5
+  HostName ec2-13-58-67-172.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode6
+  HostName ec2-18-217-181-33.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem
+Host dnode7
+  HostName ec2-52-14-248-69.us-east-2.compute.amazonaws.com
+  User ubuntu
+  IdentityFile ~/.ssh/pk_First.pem

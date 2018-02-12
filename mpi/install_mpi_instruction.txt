@@ -1,0 +1,34 @@
+
+sudo add-apt-repository ppa:jonathonf/gcc-7.1
+
+sudo apt-get update
+
+sudo apt-get install gcc-7 g++-7
+
+sudo apt-get update
+
+sudo apt-get install g++
+
+sudo apt-get update
+
+sudo apt-get install gcc
+
+sudo apt-get update
+
+sudo apt-get install make
+
+tar -xvf openmpi-*
+
+cd
+
+./configure --prefix="/home/$USER/.openmpi"  --enable-mpi-java
+
+make
+
+sudo make install
+
+echo export PATH="$PATH:/home/$USER/.openmpi/bin" >> /home/$USER/.bashrc
+
+echo export LD_LIBRARY_PATH="$LD_LIBRARY_PATH: /home/$USER/.openmpi/lib/" >> /home/$USER/.bashrc
+
+sudo apt-get update
